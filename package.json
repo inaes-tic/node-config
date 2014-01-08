@@ -8,15 +8,12 @@
   "directories": {"lib": "./lib", "config": "./config", "test": "./test"},
   "licenses": ["MIT"],
   "dependencies": {
+    "jayschema" : "0.1.5"
   },
   "devDependencies": {
     "js-yaml" : "2.1.x",
     "coffee-script" : ">=1.2.0",
     "vows" : ">=0.5.13"
-  },
-  "repository": {
-    "type" : "git",
-    "url" : "http://github.com/lorenwest/node-config.git"
   },
   "engines": {"node": ">0.4.x"},
   "scripts": {
